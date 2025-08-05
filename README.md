@@ -1,6 +1,7 @@
-Employee Records - Application using Gemini Code Assist
-This project is a great example of building a small data management application. It's actually composed of two distinct parts that work together. Let's break down what each part does.
-Part 1: The Dynamic Excel Dashboard (Client-Server Application)
+**Employee Records - Application using Gemini Code Assist**
+This project is a great example of building a small data management application. It's actually composed of two distinct parts that work together.
+
+**Part 1: The Dynamic Excel Dashboard (Client-Server Application)** intented 
 This part of your project uses a local server to read data directly from an Excel file and display it in a web browser. It consists of server.js, dashboard.html, and qea_dashboard.html.
 •	server.js (The Backend):
 o	This is a small web server built with Node.js and the Express framework.
@@ -14,7 +15,8 @@ o	It includes a form that allows you to add a new employee. When you submit the 
 •	qea_dashboard.html (The Filtered Report):
 o	This is a specialized report page. It also fetches all the data from server.js.
 o	However, its JavaScript then filters this data to show only the first 10 employees whose role is related to "QA" or "QEA".
-Part 2: The Standalone Employee Records App
+
+**Part 2: The Standalone Employee Records App**
 This part consists of a single, powerful file: EmployeeRecords.html.
 •	EmployeeRecords.html (The All-in-One App):
 o	This is a complete, self-contained application that runs entirely in your browser. It does not use the server.js or the Excel file.
